@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container {
+    background-color: #5995DA;  /* Blue */
+    padding: 0 100px;
+}
+.menu {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu a:hover {
+    background-color: thistle ;
+}
+.header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.bee-header {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: normal;
+}
+.bee-info-container {
+    background-color:#5995DA;
+    justify-content: center;
+    align-items: center;
+}
+.bee-info-container p {
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
+.bee-images-container {
+    background-color: tomato;
+    display: flex;
+}
+.bee-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center; 
+    width: 100%;
+}
+.bee-image-item {
+    padding: 30px;
+}
+.bee-types {
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+}
+.bee-types li {
+    margin: 0 20px;
+}
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .bee-types {
+        background-color: white;
+        padding: 20px;
+        width: 100%;
+    }
+    .bee-images-container {
+        background-color: tomato;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+  
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    
+}
